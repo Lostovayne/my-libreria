@@ -9,7 +9,7 @@ export default function Home() {
 				Construye tu próxima idea aún más rápido
 			</h1>
 
-			<p className='font-medium text-[1.125rem] text-left text-[#0f172a] max-w-[45rem] mx-auto p-5'>
+			<p className='font-medium text-[1.125rem] text-left text-[#0f172a] max-w-[45rem] mx-auto p-x py-7'>
 				DeusUi es una librería de componentes de Tailwind para React que ofrece
 				una variedad de componentes personalizables y escalables para crear
 				interfaces de usuario modernas y atractivas de manera eficiente.
@@ -30,12 +30,22 @@ export default function Home() {
 					Examinar plantillas
 				</Link>
 			</div>
-			<section className=' flex  justify-evenly items-start'>
+			<section className=' flex gap-6 justify-evenly items-start'>
 				<SectionText />
 				<Desplegable />
 			</section>
 
-			<section className='h-screen w-screen bg-gradient-to-b[] '></section>
+			<section className='h-screen w-screen bg-gradient-to-b from-white/5 to-white flex justify-start m-[6.875rem]'>
+				<fieldset className='w-[30%] md:ml-60 '>
+					<input
+						type="text"
+						placeholder='Buscar componente'
+						className='mt-5 py-2.5  px-4 w-full bg-white/80 rounded-md shadow-sm border border-gray-300/50 outline-none focus:border-gray-400/60
+						placeholder:text-gray-400 placeholder:font-light font-medium text-[#0f172a] 
+						'
+					/>
+				</fieldset>
+			</section>
 		</main>
 	);
 }
