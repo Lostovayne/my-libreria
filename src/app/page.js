@@ -15,7 +15,7 @@ export default function Home() {
 				interfaces de usuario modernas y atractivas de manera eficiente.
 			</p>
 
-			<div className='flex flex-col sm:flex-row items-center gap-4 mt-3  justify-center'>
+			<div className='flex flex-col sm:flex-row items-center gap-6 mt-3  justify-center'>
 				<Link
 					className='block w-[90%]  sm:w-64
             bg-[#0f172b] text-white p-3 rounded-[.5rem] text-center font-medium leading-6'

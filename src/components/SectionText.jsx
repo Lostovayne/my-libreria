@@ -1,7 +1,7 @@
 const SectionText = () => {
   return (
     <section className=' mt-10 ml-20 ' m>
-      <h2 className='text-left text-[#0f172a] max-w-[45rem]  font-extrabold text-[2rem] sm:px-3 md:text-[3.3rem] tracking-[-0.11rem] leading-[3.2rem]  md:leading-[3.5rem] pt-20 '>
+      <h2 className='text-left text-[#0f172a] max-w-[45rem]  font-extrabold text-[2rem] sm:px-3 md:text-[3rem] tracking-[-0.11rem] leading-[3.2rem]  md:leading-[3.5rem] pt-20 '>
         Hermosos componentes de interfaz de usuario, creados con Tailwind CSS.
       </h2>
 
